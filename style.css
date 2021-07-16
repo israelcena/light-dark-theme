@@ -48,4 +48,9 @@ h1 {
   top: 2px;
   left: 2px;
   border-radius: 50%;
+  transition: transform .2s linear;
+}
+
+#checkbox:checked + .label .ball {
+  transform: translateX(26px);
 }
